@@ -1,16 +1,44 @@
-### What key or combination of keys is used to run Setup on your computer? It's f2
+### What key or combination of keys is used to run Setup on your computer? - It's f2
 
-### Who is the manufacturer of the BIOS? Intel
+### Who is the manufacturer of the BIOS? - Intel
 
-### Which BIOS version is installed in your computer? Version	10.0.22621 Build 22621 
+### Which BIOS version is installed in your computer? - Version	10.0.22621 Build 22621 
 
-### What is the current BIOS version available for the motherboard? 
+### What is the current BIOS version available for the motherboard? -
 
-### What features, if any, have been added to the new BIOS version? I've checked an there arent any new changes.
+### What features, if any, have been added to the new BIOS version? - I've checked an there arent any new changes.
 
-### What changes, if any, have been made to the new BIOS version to fix problems? No changes
+### What changes, if any, have been made to the new BIOS version to fix problems? - No changes
 
-### What are the instructions to update the new BIOS version? Device drivers for Intel Desktop Board are no longer available on Intel Download Center after September 13, 2019. BIOS updates are no longer available after November 22, 2019.
+### What are the instructions to update the new BIOS version? - Device drivers for Intel Desktop Board are no longer available on Intel Download Center after September 13, 2019. BIOS updates are no longer available after November 22, 2019.
+
+### What is the default installation location for Packet Tracer? - C:\Program Files\Cisco Packet Tracer
+
+### Why does Microsoft recommend using Uninstall or change a program to remove an installed application? - At times, uninstalling software may not effectively remove all associated files and settings generated during installation. While the standard uninstallation process on Microsoft Windows typically eliminates the application entirely, it's not always guaranteed to thoroughly clean up all remnants.
+
+### What type of File System is used on the NEW VOLUME (I:)? - The file system is FAT32.
+
+### How much Free Space is shown? - The drive has about 2GB free space.
+
+### List the tabs found in the NEW VOLUME (I): Properties window? -The tabs are General, Tools, Hardware, Sharing, Previous Versions, Customize, and ReadyBoost.
+
+### What tabs are listed in the ITE Test Document Properties window? - The tabs are General, Details, and Previous Versions.
+
+### What happens if you do not run as administrator when you open the command prompt? - Access will be denied because you do not have sufficient privileges to run the command.
+
+### What type of File System is used for the ITE (I:) drive? - NTFS
+
+### What are the tabs in the ITE (I:) Properties window? - The tabs are General, Tools, Hardware, Sharing, Security, Previous Versions, Quota, Customize, and ReadyBoost
 
 ###
+
+
+
+
+
+
+
+
+
+
 
