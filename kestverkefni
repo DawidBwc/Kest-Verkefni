@@ -1,44 +1,110 @@
-### What key or combination of keys is used to run Setup on your computer? - It's f2
+# Windows_verkefni
 
-### Who is the manufacturer of the BIOS? - Intel
+## Search for BIOS or UEFI Firmware Updates
 
-### Which BIOS version is installed in your computer? - Version	10.0.22621 Build 22621 
+### What key or combination of keys is used to run Setup on your computer?:
+Most systems use "Esc," "Del," "F1," "F2," "Ctrl-Esc" or "Ctrl-Alt-Esc" to enter setup.
 
-### What is the current BIOS version available for the motherboard? -
+### Who is the manufacturer of the BIOS?:
+Hewlett-Packard is the manufacturer of the BIOS
 
-### What features, if any, have been added to the new BIOS version? - I've checked an there arent any new changes.
+### Which BIOS version is installed in your computer?:
+The BIOS version on the computer is J51 v01.35
 
-### What changes, if any, have been made to the new BIOS version to fix problems? - No changes
+### What is the current BIOS version available for the motherboard?:
+The current BIOS version available on the computer is J51 v01.35, which is the version installed.
 
-### What are the instructions to update the new BIOS version? - Device drivers for Intel Desktop Board are no longer available on Intel Download Center after September 13, 2019. BIOS updates are no longer available after November 22, 2019.
+### What features, if any, have been added to the new BIOS version?:
+There are no new features in the latest BIOS version.
 
-### What is the default installation location for Packet Tracer? - C:\Program Files\Cisco Packet Tracer
+### What changes, if any, have been made to the new BIOS version to fix problems?:
+There are no changes in the latest BIOS version.
 
-### Why does Microsoft recommend using Uninstall or change a program to remove an installed application? - At times, uninstalling software may not effectively remove all associated files and settings generated during installation. While the standard uninstallation process on Microsoft Windows typically eliminates the application entirely, it's not always guaranteed to thoroughly clean up all remnants.
+### What are the instructions to update the new BIOS version?:
+There is no new BIOS version, so there are no instructions.
 
-### What type of File System is used on the NEW VOLUME (I:)? - The file system is FAT32.
+## Install Third-Party Software in Windows
 
-### How much Free Space is shown? - The drive has about 2GB free space.
+### What is the default installation location for Packet Tracer?:
+The default location for Packet Tracer is Program Files.
 
-### List the tabs found in the NEW VOLUME (I): Properties window? -The tabs are General, Tools, Hardware, Sharing, Previous Versions, Customize, and ReadyBoost.
+### Why does Microsoft recommend using Uninstall or change a program to remove an installed application?
+Microsoft recommends using "Uninstall or change a program" for centralized, consistent, and user-friendly removal of applications, ensuring complete and safe uninstallation through a familiar interface in the Control Panel.
 
-### What tabs are listed in the ITE Test Document Properties window? - The tabs are General, Details, and Previous Versions.
+## Create a Partition in Windows
 
-### What happens if you do not run as administrator when you open the command prompt? - Access will be denied because you do not have sufficient privileges to run the command.
+### What type of File System is used on the NEW VOLUME (I:)?:
+The file system type is FAT32.
 
-### What type of File System is used for the ITE (I:) drive? - NTFS
+### How much Free Space is shown?:
+There is 1.99GB of free space.
 
-### What are the tabs in the ITE (I:) Properties window? - The tabs are General, Tools, Hardware, Sharing, Security, Previous Versions, Quota, Customize, and ReadyBoost
+### List the tabs found in the NEW VOLUME (I): Properties window?:
+The tabs are: ReadyBoost, General, Previous Versions, Tools, Hardware, Customize, Sharing.
 
-###
+### What tabs are listed in the ITE Test Document Properties window?:
+The tabs are: General, Details, Previous Versions.
 
+### What happens if you do not run as administrator when you open the command prompt?
+Access is denied because the disk may be locked or not have sufficient privileges.
 
+### What type of File System is used for the ITE (I:) drive?:
+The file system type is FAT32.
 
+### What are the tabs in the ITE (I:) Properties window?:
+The tabs are: ReadyBoost, General, Previous Versions, Tools, Hardware, Customize, Sharing, Quota, Security.
 
+### When the volume was FAT32, there were six tabs. What are the names of the new tabs that were added after the volume was converted to NTFS?:
+The new tabs are Quota and Security.
 
+### What are the tabs in the ITE Test Document Properties window?:
+The tabs are: General, Security, Details, Previous Versions.
 
+### When the volume was FAT32, there were three tabs. What is the name of the new tab that was added after the volume was converted to NTFS?
+The new tab added is Security.
 
+### Why is there an additional Security tab in the properties window of documents stored on an NTFS volume?
+The "Security" tab in the properties window of documents on an NTFS volume allows users to manage file and folder permissions, ownership, and auditing for enhanced security control.
 
+## Work with task manager
 
+### To force the web browser to close, highlight the browser, and click End task. What happened?:
+The web browser tab was closed.
 
+### Open the web browser again. Right-click the web browser in the Task Manager. What options are available?:
+The options that are available are: End task, provide feedback, Run new task, Always on top, Search online.
 
+### Click the Services tab. Use the scroll bar on the right side of the Services window to view all the services listed. What statuses are listed?:
+There are two statuses: Running and Stopped.
+
+### Right-click on one of the services listed. What are the available actions that can be taken?:
+The actions available are: Stop, Start, Restart, Open Services, Search online, Go to detail.
+
+### What is the current utilization of the CPU?:
+The current utilization is 2%.
+
+### How many streams of instructions (i.e. Threads) are currently running?:
+There are 1387 Threads currently running.
+
+### How many Apps, Background processes, and Windows processes (i.e Processes) are currently running?:
+There are 117 processes currently running.
+
+### What is the total physical memory (MB)?:
+There is 16GB of physical memory.
+
+### What is the available physical memory (MB)?:
+There are 13.9GB available.
+
+### How much physical memory (MB) is being used by the computer?:
+There are 1.9GB being used by the computer.
+
+### What is the link speed? What type of Ethernet Adapter is in use on this computer?:
+The link speed is 800 kbps, and the type of adapter is Ethernet.
+
+### What type of network connection (i.e Connection type) is in use?:
+There is an Ethernet connection.
+
+### What is the IPv4 address of the PC?:
+The address of the PC is 10.11.214.76.
+
+### Click the Memory heading. Click the Memory heading a second time. What effect does this have
