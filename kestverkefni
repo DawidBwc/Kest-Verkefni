@@ -3,13 +3,13 @@
 ## Search for BIOS or UEFI Firmware Updates
 
 ### What key or combination of keys is used to run Setup on your computer?:
-Most systems use "Esc," "Del," "F1," "F2," "Ctrl-Esc" or "Ctrl-Alt-Esc" to enter setup.
+Most systems use "Esc," "Del," "F1," "F2," "Ctrl-Esc," or "Ctrl-Alt-Esc" to enter setup.
 
 ### Who is the manufacturer of the BIOS?:
-Hewlett-Packard is the manufacturer of the BIOS
+Hewlett-Packard is the manufacturer of the BIOS.
 
 ### Which BIOS version is installed in your computer?:
-The BIOS version on the computer is J51 v01.35
+The BIOS version on the computer is J51 v01.35.
 
 ### What is the current BIOS version available for the motherboard?:
 The current BIOS version available on the computer is J51 v01.35, which is the version installed.
@@ -26,9 +26,9 @@ There is no new BIOS version, so there are no instructions.
 ## Install Third-Party Software in Windows
 
 ### What is the default installation location for Packet Tracer?:
-The default location for Packet Tracer is Program Files.
+The default installation location for Packet Tracer is Program Files.
 
-### Why does Microsoft recommend using Uninstall or change a program to remove an installed application?
+### Why does Microsoft recommend using Uninstall or change a program to remove an installed application?:
 Microsoft recommends using "Uninstall or change a program" for centralized, consistent, and user-friendly removal of applications, ensuring complete and safe uninstallation through a familiar interface in the Control Panel.
 
 ## Create a Partition in Windows
@@ -66,7 +66,7 @@ The new tab added is Security.
 ### Why is there an additional Security tab in the properties window of documents stored on an NTFS volume?
 The "Security" tab in the properties window of documents on an NTFS volume allows users to manage file and folder permissions, ownership, and auditing for enhanced security control.
 
-## Work with task manager
+## Work with Task Manager
 
 ### To force the web browser to close, highlight the browser, and click End task. What happened?:
 The web browser tab was closed.
@@ -107,4 +107,39 @@ There is an Ethernet connection.
 ### What is the IPv4 address of the PC?:
 The address of the PC is 10.11.214.76.
 
-### Click the Memory heading. Click the Memory heading a second time. What effect does this have
+### Click the Memory heading. Click the Memory heading a second time. What effect does this have on the columns?:
+It goes from Most Memory-Least Memory to Least Memory-Most Memory.
+
+### Right-click on the Memory heading, and then select Resource values > Memory > Percents. What affect does this have on the Memory column?:
+It changed from MB to percentage.
+
+### How could this be useful?:
+This can be useful if you want to know how many percent of storage something takes up.
+
+### Return to the Task Manager. Click the Name heading. The listed processes are divided by categories. What categories are listed?:
+The categories are Apps, Background Processes, and Window Processes.
+
+### Right-click a username. What are the available options?:
+The options available are: Expand, Disconnect, and Manage user accounts.
+
+### The Startup tab lists the processes that are started automatically during Windows startup. Click the Startup tab. Right-click a process and list the available options below.
+The options available are: Expand, Disable, Open file location, Search online, and Properties.
+
+### The App history tab lists the historical resources usage. What type of information can you get from this list?:
+You can see how much CPU time and Network usage an app has.
+
+### The Details tab displays process information such as process ID (PID), status, and memory utilization. Right-click a process and list the available options below.
+The options available are: End task, End process tree, Provide feedback, Set priority, Set affinity, Analyze wait chain, UAC virtualization, Create dump file, Open file location, Search online, Properties, and Go to service.
+
+### Why is it important for an administrator to understand how to work within the Task Manager?:
+Task Manager enables administrators to monitor and control system processes, troubleshoot issues, and manage performance efficiently.
+
+# Working with File Explorer
+
+### What happened with Folder1 and Folder2 on the Desktop?
+Folder2 was placed inside of Folder1.
+
+### What is the file extension for the text document?
+It put ".txt" behind the name of the text document.
+
+### Make a copy of the text document and place it
