@@ -1,0 +1,112 @@
+### Insert removable drive, such as a USB drive into the computer
+-Saving a BitLocker recovery key is vital for accessing encrypted data if the password is forgotten, hardware fails, or during malware attacks. It's also needed for drive transfer, system reinstallation, and compliance purposes.
+
+### According to the security policy in Step 1, how many times is a user allowed to attempt to login before theaccount is locked?
+-According to the security policy outlined in Step 1, a user is allowed to attempt to login five times before the account is locked.
+
+### How long should the user have to wait before attempting to log back in?
+   -According to the security policy outlined in Step 1, the user must wait for 5 minutes before attempting to log back in after the account is locked.
+
+### Are there any you would recommend changing? Why?
+1. Implement a maximum password age to ensure regular updates.
+2. Enforce a minimum password length for stronger security.
+3. Strengthen password complexity requirements.
+4. Review and adjust audit policy settings as needed.
+5. Enable automatic logoff to prevent unauthorized access.
+6. Customize password expiry reminder intervals for proactive password management.
+
+### What are the names of the accounts listed?
+   -Administrator
+   -Dawid Bwc
+   -DefaultAccount
+   -Guest
+   -WDAGUtilityAccount
+### Select the Groups folder. Name five groups from the list.
+  -Administrators
+  -Guests
+  -DeviceOwners
+  -Users
+  -Remote Desktop Users
+
+### Which group does your account belong to?
+   -Administrators
+
+### What is Student01 required to do when logging in the first time?
+   -When Student01 logs in for the first time, they will be required to change their password from "cisco12345" to a new, personalized password. This is a standard security measure to ensure that users have control over their account security.
+
+### What group does Student01 belong to?
+   -Student01 does not belong to any specific group. The instructions only mention creating the user accounts without specifying any group memberships for Student01 or any other users. 
+
+### From the description, can the members of the Users group make system wide changes? What can the Users group do on the computer?
+-The Users group in Windows typically lacks system-wide change permissions. They can perform basic tasks like running programs, accessing files, printing, and network access. However, they can't make significant system-wide alterations or perform administrative tasks without elevated privileges.
+
+### Who are the group members?
+   -The group members of the Users group are typically regular users or non-administrator accounts on the computer system. Basically like my Default Account etc.
+
+
+### Were you successful in creating the new account? Explain.
+   -Yes, I successfully created the new user account named "Test" with the password "cisco12345" as instructed. I encountered no issues during the process. However, to confirm functionality, I attempted to use Internet Explorer to navigate to www.cisco.com, as directed.
+
+### Were you able to navigate to www.cisco.com? Explain.
+   -Yes i was able to navigate to www.cisco.com. This confirms that the new user account creation was successful and that the user, as a member of the Users group, has the appropriate permissions to access and browse the internet.
+
+### With the group ITEStaff highlighted, what can the members do in this folder?
+   -Members of the ITEStaff group highlighted can access, modify, delete, or create files and folders within the Students folder on the C:\ drive, based on their group permissions.
+
+### Which additional checkbox would you select?
+   -The additional checkbox that needs to be selected is "Allow" under the "Modify" permission for the ITEStaff group.
+
+### Navigate to the folder C:\Students. Create a folder named Student02 and create a text document in the folder.
+   -Yes, I was successful in navigating to the folder C:\Students as Student02, creating a folder named "Student02", and creating a text document within that folder. This indicates that Student02 has the necessary permissions to access and modify the contents of the C:\Students folder as expected.
+
+### Navigate to the folder C:\Staff. Create a folder named Student02 and place a text file in the folder
+   -I was indeed successful but there are better ways to do this.
+
+### Navigate to C:\. Can you place a text file in the Staff folder? Can you modify the text file in folder Student02? Explain. (Note: A reboot may be necessary for Windows 8.1 to enable the change in file and folder permission.)
+   -When logged in as Student01, I see the Staff folder in C:. Whether I can add a text file to Staff or modify files in Student02 depends on my permissions. If I encounter issues, it's likely due to permissions that need adjusting. A reboot may be needed for changes to take effect, especially on Windows 10.
+
+### Are you able to access the content in the Student01 and Student02 folders? Explain
+   -When I log in as Student02 and go to C:\Students, I see both the Student01 and Student02 folders. While I can open both folders, I'm unable to modify anything in Student01 due to restrictions set for ITEStudent group members.
+
+### Were you able to access the content in the folders Staff, Student\Student01 and Student\Student02? Explain.
+   -After logging in as Staff01 and navigating to C:, I could access the Staff folder. However, my access to the Student\Student01 and Student\Student02 folders depends on their permissions.
+
+### Can you log on as Staff02? Explain.
+   -No, I cannot log on as Staff02 because the account has been disabled. Disabling the account means that it cannot be used to log in or access the system.
+
+### How would you give administrative privileges on the local computer to all the members of ITEStaff?
+   -To grant administrative privileges to all ITEStaff group members, log in with administrative credentials and access the Local Security Policy via Control Panel. Navigate to "Allow log on locally" under User Rights Assignment and add "ITEStaff" to the policy. Apply and confirm changes. This enables all ITEStaff members to have administrative privileges on the local computer.
+
+### How would you deny access to a file for everyone except the owner?
+   -To limit file access exclusively to the owner, modify the file's security settings. Firstly, access the file's properties and navigate to the "Security" tab. Then, click on "Advanced" and disable inheritance to prevent any inherited permissions. Next, remove all existing entries except for the owner's. Finally, ensure that the owner has full control over the file, thereby restricting access to all other users or groups
+
+### Under PC-1, are you able to see the shared folder Cisco?
+   - Yes, i can
+
+### What are the benefits of Windows Firewall?
+   -Windows Firewall provides network protection by blocking unauthorized access, defending against malware, controlling application communication, and offering customizable rules, all integrated with the Security Center for streamlined management.
+
+### Describe a negative consequence of having too many exceptions.
+   -Excessive exceptions in the Windows Firewall Programs and Services file increase complexity, raising the risk of oversight and misconfiguration. This can inadvertently create security vulnerabilities, providing attackers with unintended access points. Therefore, limiting exceptions is vital for maintaining robust firewall protection.
+
+### Can you connect to PC-1 and view the Cisco shared folder?
+   -No, you cannot connect to PC-1 and view the Cisco shared folder because File and Printer Sharing has been disabled in the Windows Firewall Allowed apps settings. If an error message was received on PC-2, it would likely indicate that the network connection to PC-1 was unsuccessful due to the disabled File and Printer Sharing.
+
+### Did you receive an error message on PC-2? If so, what was the Error message?
+   -The error i got was = Access Denied
+
+
+###Can you connect to computer 1? Explain.
+   -No, I cannot connect to computer 1. Adding a checkmark to File and Printer Sharing on PC-1 enables the sharing of files and printers, but it doesn't automatically allow access from PC-2. 
+
+### List the short name of four services that are available in the Customize Service Settnigs window.
+   -In the middle panel, find the inbound rule named Files and Printer Sharing (Echo Request – ICMPv4-In), right-click it, and select Properties. In the Advanced tab, click Customize in the Interface Types section. Ensure all interface types are selected and click OK. Then, go to the Programs and Services tab, click Settings in the Services section, and find services like FDResPub, SSDPSRV, WinRM, and WSD for customization.
+
+### List four of the Specific ICMP types
+   -Click Cancel to close the Customize Service Settings window. Then, navigate to the Protocols and Ports tab. In the ICMP settings, click Customize to open the Customize ICMP Settings window. Here, you can allow incoming echo requests, along with other specific ICMP types like Destination Unreachable, Time Exceeded, and Parameter Problem.
+
+###What are some possible reasons you may need to make firewall changes?
+   -Firewall changes may be necessary to allow or restrict specific applications or services, enhance network security against unauthorized access, enable remote access to resources securely, facilitate file and printer sharing, resolve connectivity issues, and adapt to changes in network infrastructure or business requirements.
+
+
+
