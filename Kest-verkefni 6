@@ -1,1 +1,42 @@
+###Insert removable drive, such as a USB drive into the computer
+-Saving a BitLocker recovery key is vital for accessing encrypted data if the password is forgotten, hardware fails, or during malware attacks. It's also needed for drive transfer, system reinstallation, and compliance purposes.
+
+###According to the security policy in Step 1, how many times is a user allowed to attempt to login before theaccount is locked?
+-According to the security policy outlined in Step 1, a user is allowed to attempt to login five times before the account is locked.
+
+###How long should the user have to wait before attempting to log back in?
+   -According to the security policy outlined in Step 1, the user must wait for 5 minutes before attempting to log back in after the account is locked.
+
+###Are there any you would recommend changing? Why?
+1. Implement a maximum password age to ensure regular updates.
+2. Enforce a minimum password length for stronger security.
+3. Strengthen password complexity requirements.
+4. Review and adjust audit policy settings as needed.
+5. Enable automatic logoff to prevent unauthorized access.
+6. Customize password expiry reminder intervals for proactive password management.
+
+###What are the names of the accounts listed?
+   -Public
+   -ziena
+###Select the Groups folder. Name five groups from the list.
+  -I do not have a Groups folder. Unfortunately you cannot enable this feature in Windows 11 Home Edition. It is only found in Professional and above versions of Windows.
+
+###Which group does your account belong to?
+   -None, because i do not have a Groups folder. If necessary i can prove it.
+
+###13.3.3.6 Configure Users and Groups in Windows, because i am missing all of the folders.
+
+###Under PC-1, are you able to see the shared folder Cisco?
+   - Yes
+
+###What are the benefits of Windows Firewall?
+   -Windows Firewall provides network protection by blocking unauthorized access, defending against malware, controlling application communication, and offering customizable rules, all integrated with the Security Center for streamlined management.
+
+###Describe a negative consequence of having too many exceptions.
+   -Excessive exceptions in the Windows Firewall Programs and Services file increase complexity, raising the risk of oversight and misconfiguration. This can inadvertently create security vulnerabilities, providing attackers with unintended access points. Therefore, limiting exceptions is vital for maintaining robust firewall protection.
+
+
+
+
+
 
